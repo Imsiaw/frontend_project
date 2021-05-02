@@ -265,21 +265,16 @@ background-image: url(images/p9.jpg);
 
     .article {
         
-        /*grid-template-areas:
+        grid-template-areas:
             'p1'
             'p2'
             'p3'
             'p4'
             'p5'
-            'p6'*/
-        ; grid-template-areas:
-            'p1 p2'
-            'p3 p4'
-            'p5 p6';
-        
+            'p6'
     }
     .article > div {
-        height: 17em;
+        height: 20em;
         align-items: center;
     
     }
